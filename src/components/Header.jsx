@@ -12,9 +12,11 @@ const Header = () => {
   }
 
   return (
-    <header style={backgroundImageStyle} className="relative font-roboto h-screen py-8 md:py-24 xl:py-16 flex flex-col justify-between items-start">
+    <header style={backgroundImageStyle} className="relative font-roboto h-fit md:h-screen md:py-24 xl:py-16 flex flex-col justify-between items-start">
       <Tagline />
-      <FormSection />
+      <div className="hidden md:block w-full">
+        <FormSection />
+      </div>
     </header>
   )
 }
