@@ -9,9 +9,9 @@ const FormSection = () => {
         <div className='hidden xl:block border-[75px] border-x-[24px] border-accent-color border-r-transparent border-t-transparent border-b-transparent absolute -right-[48px]'>
         </div>
       </div>
-      <div className="bg-white p-4 xl:px-6 xl:pl-11 flex-auto flex flex-col justify-center items-center gap-4 rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+      <div className="bg-white p-4 xl:px-6 xl:pl-11 border border-gray-200 shadow-md md:border-none md:shadow-none flex-auto flex flex-col justify-center items-center gap-4 rounded-b-md xl:rounded-b-none xl:rounded-r-md">
         <div>
-          <strong className='md:text-lg xl:text-[28px] text-center text-company-gray'>Learn How FloQast Can <span className='text-accent-color'>Improve Your Month-End</span></strong>
+          <strong className='text-sm md:text-lg xl:text-[28px] text-center text-company-gray'>Learn How FloQast Can <span className='text-accent-color'>Improve Your Month-End</span></strong>
         </div>
         <form action="" className='flex flex-col xl:flex-row justify-center items-center gap-2 w-full'>
           <input type="text" name="firstName" id="firstName" placeholder='First Name⭑' required className='md:text-lg w-full border border-gray-300 rounded-md p-1.5 px-4 focus:outline-accent-color' />
